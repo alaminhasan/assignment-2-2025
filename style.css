@@ -1,0 +1,417 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;padding: 0; font-family: "Inter", sans-serif;
+}
+
+/*shared style here*/
+/*shared style here*/
+/*shared style here*/
+body{
+  background: black;
+}
+
+.container{
+    max-width: 1060px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.title-text{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+.sub-title-text{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+
+
+}
+.para-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border: none;
+}
+.btn-outline{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-left: 10px;
+}
+.logo-text{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+}
+.bg-primary{
+    background-color: black;
+}
+.bg-secondary{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+ul{
+    list-style-type: none;
+}
+.flex{
+    display: flex;
+}
+.margin-bottom{
+    margin-bottom: 100px;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+/*Header part start here*/
+/*Header part start here*/
+/*Header part start here*/
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.2) 100%);
+}
+.menbar-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+.menbar-container ul{
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 46px;
+    padding: 5px;
+}
+.menbar-container ul li{
+    border-radius: 46px;
+    padding: 10px 20px;
+}
+.menbar-container ul li:hover{
+    background-color: rgb(230, 83, 60);
+}
+.menbar-container ul li a{
+    color: white;
+}
+.hero-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left-text-part h1{
+        color: white;
+        font-size: 78px;
+        font-weight: 900;
+        line-height: 120%;
+        font-family: inter;
+}
+.hero-left-text-part{
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+}
+.hero-right-image-container{
+    position: relative;
+}
+.video-tutorial-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 25px;
+    left: -150px;
+    padding: 20px;
+    display: flex;
+     gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.cercle{
+    background: rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+.free-workout-video-container{
+        box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    
+    top: 110px;
+    right: -70px;
+    padding: 20px;
+    display: flex;
+     gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Change your habit part here*/
+/*Change your habit part here*/
+/*Change your habit part here*/
+.chnage-your-habit-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 0px;
+}
+.habit-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    margin-top: 50px;
+   
+}
+.habit-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.habit-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid gray;
+}
+/*Run extra mile here*/
+/*Run extra mile here*/
+/*Run extra mile here*/
+.run-extra-mile-container{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    overflow: hidden;
+
+}
+.run-extra-mile-left-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    
+    
+ 
+}
+
+.run-extra-mile-right-image{
+   flex: 1;
+ 
+}
+.run-extra-mile-right-image img{
+
+    border-radius: 25px;
+}
+
+/*Training and excercise part*/
+/*Training and excercise part*/
+/*Training and excercise part*/
+.training-excecise-container{
+       display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.training-excercise-image-collage-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    height: 400px;
+    color: white;
+    margin-top: 50px;
+ 
+
+}
+.collage1{
+    grid-column: span 2;
+    background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)) , url(images/exercise1.jpg);
+    background-size: cover;
+}
+.collage2{
+    grid-column: span 4;
+    background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(images/exercise2.png);
+    background-size: cover;
+
+}
+.collage3{
+    grid-column: span 2;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/exercise3.png);
+    background-size: cover;
+
+}
+.collage4{
+    grid-column: span 3;
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/exercise4.png);
+    background-size: cover;
+}
+.collage5{
+    grid-column: span 2;
+    background: linear-gradient(rgba(66, 255, 0, 0.3),rgba(66, 255, 0, 0.3)) ,url(images/exercise5.jpg);
+    background-size: cover;
+
+}
+.collage6{
+    grid-column: span 3;
+    background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)),url(images/exercise6.jpg);
+    background-size: cover;
+}
+/*BMI Calculator Part Here*/
+/*BMI Calculator Part Here*/
+/*BMI Calculator Part Here*/
+.bmi-calculator-container{
+    display: flex;
+    gap: 10px;
+    color: white;
+    padding: 50px 0px;
+}
+.bmi-calculator-container>div{
+    flex:1;
+}
+.bmi-calculator-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+  
+
+}
+td,th{
+    padding: 15px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+th{
+    color: white;
+}
+.bmi-calculator-right-form input[type="text"], .bmi-calculator-right-form select{
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    width: 180px;
+}
+
+.bmi-calculator-right-form form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+    align-items: flex-start;
+}
+.full{
+    width: 300px;
+}
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+/*Meet Our Photo part start here*/
+/*Meet Our Photo part start here*/
+/*Meet Our Photo part start here*/
+.meet-our-team-photo-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+
+}
+.meet-our-team-photo-box{
+    position: relative;
+ 
+  
+}
+.meet-our-team-photo-box img{
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    height: 270px;
+}
+.vasoman-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+/*footer part start here*/
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 50px 0px;
+    place-items: center;
+}
+.ul-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.footer-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.footer-container ul li a{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+
+.all-right{
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 20px 0px;
+}
