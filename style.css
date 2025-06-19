@@ -416,6 +416,8 @@ footer{
 .mobile-veiw{
     display: none;
 }
+
+/*Mobile Responsive Start Here*/
 @media  screen and (max-width: 576px) {
     header, section, footer{
         padding: 0px 5%;
@@ -479,5 +481,31 @@ footer{
         .footer-container{
             grid-template-columns: repeat(1, 1fr);
             justify-items: left;
+        }
+}
+
+/*Tab Responsive start here*/
+@media screen and (min-width:577px) and (max-width:768px) {
+            header, section, footer{
+            padding: 0px 5%;
+        }
+        .menbar-container ul{
+            gap: 5%;
+        }
+          .hero-container{
+            flex-direction: column;
+        }
+         .hero-left-text-part{
+            width: 100%;
+        }
+         .habit-card-container{
+            grid-template-columns: repeat(2, 1fr);
+            padding: 0px 10%;
+        }
+        .footer-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .logo-and-text-part{
+            grid-column: span 2;
         }
 }
