@@ -407,13 +407,77 @@ footer{
     font-size: 23px;
     font-weight: 400;
     line-height: 120%;
-
 }
-
-
-
 .all-right{
     border-top: 2px solid rgba(255, 255, 255, 0.1);
     text-align: center;
     padding: 20px 0px;
+}
+.mobile-veiw{
+    display: none;
+}
+@media  screen and (max-width: 576px) {
+    header, section, footer{
+        padding: 0px 5%;
+    }
+        .menbar-container ul{
+            display: none;
+        }
+        .mobile-veiw{
+            display: block;
+            color: white;
+            font-size: 36px;
+        }
+        .hero-left-text-part{
+            width: 100%;
+        }
+        .hero-left-text-part h1{
+            font-size: 36px;
+        }
+        .hero-container{
+            flex-direction: column;
+        }
+        .video-tutorial-container{
+            left: 0px;
+        }
+        .free-workout-video-container{
+            right: 0px;
+        }
+        .habit-card-container{
+            grid-template-columns: repeat(1, 1fr);
+            padding: 0px 10%;
+        }
+        
+        .run-extra-mile-container{
+            flex-direction: column;
+            padding:10%;
+        }
+        .run-extra-mile-left-text{
+            align-items: stretch;
+        }
+        .training-excercise-image-collage-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .collage1, .collage2, .collage3, .collage4, .collage5, .collage6{
+           grid-column: span 1;
+        }
+        .bmi-calculator-container{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .bmi-calculator-right-form form{
+            justify-content: center;
+            align-items: center;
+        }
+        .bmi-calculator-right-form input[type="text"], .bmi-calculator-right-form select{
+            max-width: 160px;
+        }
+        .meet-our-team-photo-container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .footer-container{
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: left;
+        }
 }
